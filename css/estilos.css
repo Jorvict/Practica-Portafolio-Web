@@ -1,3 +1,20 @@
-header{
-    background: pink !important;
-}
+/*
+reglas
+selectores: Como identificamos un elemento en HTML "<header>"
+declaraciones: Se refiere a todo lo que hacemos con ese selector "{}"
+propiedades: Cosas particulares que podemos hacer con esos elementos "background"
+valores : cosas que esperar recibir variables para funcionar de forma correcta "pink"
+*/
+
+
+/* 
+selector de etiqueta:  header - section - article - nav */
+    header{
+        background: pink;
+        color: red;
+    }
+
+/* selector descendente: body header div nav ol li a{} */
+/* selector de clase: .link */
+/* selector de id: #portafolio */
+
