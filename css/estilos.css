@@ -24,6 +24,17 @@ body{
     margin: 0;
 }
 
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -48,6 +59,36 @@ h1{
 
 h1 strong{
     color:#026fff;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
 }
 
 .hero{
@@ -103,14 +144,25 @@ h1 strong{
     width: 500px;
 }
 
-.header{
-    background-color: #1b2127;
-    color: white
-}
 
-.header a{
-    color: white;
-    text-decoration: none;
+
+.flexbox{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+
+    
+    /* color: yellow; */
+}
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid red;
+
+    
+    flex-shrink: 0;
 }
 
 
