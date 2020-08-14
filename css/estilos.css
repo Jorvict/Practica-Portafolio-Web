@@ -228,7 +228,7 @@ h2{
 
 .event-list{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .event{
@@ -361,10 +361,11 @@ h2{
 
 .container{
     border: 1px solid red;
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
+    flex-wrap: inherit;
 }
