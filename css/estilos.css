@@ -22,6 +22,7 @@ selector de etiqueta:  header - section - article - nav
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    padding-top: 70px; /*Se coloco para añadir un espaciado y que el menu no se sobreponga sobre el hero */
 }
 
 ol,
@@ -78,6 +79,13 @@ h2{
     justify-content: space-between;
     height: 70px;
     align-items: center;
+
+    flex-wrap: wrap;
+    z-index: 99; /*Sirve para superponer un elemento sobre otro*/
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed; /*Sirve volver estatico  ese elemento */
 }
 
 .menu{
@@ -220,9 +228,9 @@ h2{
     /* border: 1px solid red; */
     margin: 10px;
     width: 480px;
-    flex-shrink: 0;
+    flex-shrink: 0; /*sirve para que nuestros elementos no cambien de tamaño a causa del display flex */
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; /*Sirve para ocultar todo lo que se desborde de nuestra caja */
     background-color: #f4fbff;
 }
 
@@ -233,12 +241,13 @@ h2{
 }
 
 .event-detail{
-    margin: 20px 40px;
+    margin: 20px 40px; /*Recuerda no colocar "," cuando solo son dos valores */
     margin-top: -40px;
     background-color: white;
     position: relative;
     padding: 20px;
     text-align: center;
+    z-index: 0;
 }
 
 .event-description{
@@ -249,7 +258,7 @@ h2{
     color: #026fff;
     border: 1px solid;
     padding: 5px 20px;
-    text-decoration: none;
+    text-decoration: none; /*Quita el subrayado a los hipervinculos */
     border-radius: 5px;
 }
 
@@ -264,7 +273,7 @@ h2{
 }
 
 .footer img{
-    vertical-align: middle;
+    vertical-align: middle; /*Se utiliza para nivelar dicho elemento con el padre */
 }
 
 .footer a{
