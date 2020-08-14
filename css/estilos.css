@@ -22,7 +22,7 @@ selector de etiqueta:  header - section - article - nav
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    padding-top: 70px; /*Se coloco para añadir un espaciado y que el menu no se sobreponga sobre el hero*/
+    /*padding-top: 70px; Se coloco para añadir un espaciado y que el menu no se sobreponga sobre el hero*/
 }
 
 ol,
@@ -81,12 +81,12 @@ h2{
     align-items: center;
 
     
-    flex-wrap: wrap;
-    z-index: 99; /*Sirve para superponer un elemento sobre otro*/
+    /*flex-wrap: wrap;
+    z-index: 99; Sirve para superponer un elemento sobre otro
     width: 100%;
     left: 0;
     top: 0;
-    position: fixed; /*Sirve volver estatico  ese elemento */
+    position: fixed; Sirve volver estatico  ese elemento */
 }
 
 .menu{
