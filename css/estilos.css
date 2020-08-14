@@ -89,6 +89,17 @@ h2{
     position: fixed; Sirve volver estatico  ese elemento */
 }
 
+.container{
+    /* border: 1px solid red; */
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
 .menu{
     height: inherit;
 }
@@ -280,14 +291,6 @@ h2{
     padding: 0px 40px; */
 }
 
-.footer img{
-    vertical-align: middle; /*Se utiliza para nivelar dicho elemento con el padre */
-}
-
-.footer a{
-    color: white;
-}
-
 .contact{
     background-color: #026fff;
     color:white;
@@ -299,33 +302,6 @@ h2{
 
 .social{
     /* border: 1px solid red; */
-}
-
-.social-link{
-    /* border: 1px solid white; */
-
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
-    margin: 0 10px;
-}
-
-.social-link.twitter{
-    background-image: url('../images/twitter.svg');
-    /* background-size: 50px 50px; */
-}
-.social-link.facebook{
-    background-image: url('../images/facebook.svg');
-    /* background-size: 50px 50px; */
-}
-.social-link.github{
-    background-image: url('../images/github.svg');
-    /* background-size: 50px 50px; */
-}
-.social-link.instagram{
-    background-image: url('../images/instagram.svg');
-    /* background-size: 50px 50px; */
 }
 
 .form-email input{
@@ -360,13 +336,37 @@ h2{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.container{
-    /* border: 1px solid red; */
-    width: 1200px;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
+.social-link{
+    /* border: 1px solid white; */
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+    /* background-size: 50px 50px; */
+}
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+    /* background-size: 50px 50px; */
+}
+.social-link.github{
+    background-image: url('../images/github.svg');
+    /* background-size: 50px 50px; */
+}
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+    /* background-size: 50px 50px; */
+}
+
+.footer img{
+    vertical-align: middle; /*Se utiliza para nivelar dicho elemento con el padre */
+}
+
+.footer a{
+    color: white;
 }
